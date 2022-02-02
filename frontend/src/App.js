@@ -1,5 +1,6 @@
 import BlogList from "./components/BlogList";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import EditorPage from "./components/EditorPage";
 
 function App() {
     return (
@@ -7,7 +8,7 @@ function App() {
             <div className="App">
                 <Routes>
                     <Route path="/" element={<BlogList />}></Route>
-                    <Route path="/edit/:id" element={<div>Editor</div>}></Route>
+                    <Route path="/edit/:id" element={<EditorPage />}></Route>
                     <Route path="/create" element={<div>Create</div>}></Route>
                 </Routes>
             </div>
