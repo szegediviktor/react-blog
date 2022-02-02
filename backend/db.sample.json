@@ -1,0 +1,10 @@
+{
+    "posts": [
+        {
+            "id": 0,
+            "author": "Szegedi Viktor",
+            "body": "... valamilyen szöveg tökmindegy",
+            "title": "Címsor"
+        }
+    ]
+}
